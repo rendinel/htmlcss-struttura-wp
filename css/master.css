@@ -16,19 +16,20 @@ header{
   margin-bottom: 10px;
 }
 
-.blocco{
-  float: left;
-}
-
 .clearfix::after{
   content: "";
   clear: both;
   display: table;
 }
 
+.blocco{
+  float: left;
+}
+
 .blocco.uno{
   width: 25%;
   height: 400px;
+  padding-right: 10px;
 }
 
 .blocco.due{
@@ -57,7 +58,6 @@ header{
 .sidebarcontent2{
   height: 400px;
   background-color: yellow;
-  padding-right: 10px;
 }
 
 footer{
